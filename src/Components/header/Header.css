@@ -1,0 +1,61 @@
+.HeaderData {
+  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  height: 10vh;
+  align-items: center;
+  background-color: rgb(164, 231, 63);
+}
+.MenuIcon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  justify-items: start;
+  width: 200px;
+}
+.MenuIcon h2 {
+  color: white;
+}
+.Meanu {
+  color: white;
+  width: 10px;
+  font-size: xx-large;
+}
+
+.CartNotAcc {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 700px;
+  justify-items: end;
+}
+.CartNotAcc h3 {
+  color: white;
+  font-weight: 200;
+}
+.shoppingCart {
+  color: white;
+}
+.cartData {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.notifiData {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.notif {
+  color: white;
+}
+.AccountData {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Acc {
+  color: white;
+}
